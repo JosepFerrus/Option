@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item android:title="Help"
+            android:id="@+id/help" />
+        <item android:title="Opciones Avanzadas"
+            android:id="@+id/help2" >
+                <menu>
+                    <item android:title="soy una ayudita"
+                    android:id="@+id/help2.1" />
+                    <item android:title="Puedo resetear tu movil o no"
+                        android:id="@+id/help2.2"/>
+
+                </menu>
+            </item>
+        <item android:title="Opciones no tan avanzadas"
+            android:id="@+id/help3" />
+    </group>
+</menu>
